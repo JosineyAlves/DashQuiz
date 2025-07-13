@@ -1,4 +1,4 @@
-type ScreenType = 'progress' | 'answers' | 'heatmap';
+type ScreenType = 'progress' | 'answers';
 
 type SidebarProps = {
   selected: ScreenType;

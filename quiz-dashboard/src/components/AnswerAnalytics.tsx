@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { supabase } from '../supabaseClient';
 import DateRangeFilter from './DateRangeFilter';
 import type { DateRangeOption } from './DateRangeFilter';

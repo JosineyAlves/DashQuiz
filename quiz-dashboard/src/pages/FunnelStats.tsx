@@ -1,6 +1,6 @@
 // src/pages/FunnelStats.tsx
 import { useEffect, useState } from 'react';
-import { supabase } from '@/supabaseClient';
+import { supabase } from '../supabaseClient';
 import {
   Bar,
   Line,
